@@ -1,0 +1,82 @@
+/* SFH_WEAR - Basic Style */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:#ffffff;
+    color:#111;
+}
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 8%;
+    background:#ffffff;
+    border-bottom:1px solid #eee;
+}
+
+.logo{
+    font-size:30px;
+    font-weight:700;
+    letter-spacing:3px;
+    font-family:'Cormorant Garamond',serif;
+}
+
+nav a{
+    text-decoration:none;
+    color:#111;
+    margin-left:25px;
+    font-weight:500;
+    transition:.3s;
+}
+
+nav a:hover{
+    color:#b38b59;
+}
+
+.hero{
+    height:90vh;
+    background:linear-gradient(rgba(0,0,0,.35),rgba(0,0,0,.35)),
+    url("https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=1600&q=80");
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.overlay{
+    text-align:center;
+    color:white;
+}
+
+.overlay h1{
+    font-size:60px;
+    margin-bottom:15px;
+    font-family:'Cormorant Garamond',serif;
+}
+
+.overlay p{
+    font-size:20px;
+    margin-bottom:30px;
+}
+
+.overlay button{
+    padding:15px 40px;
+    border:none;
+    background:#b38b59;
+    color:white;
+    font-size:16px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.overlay button:hover{
+    background:#111;
+}
